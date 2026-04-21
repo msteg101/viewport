@@ -235,7 +235,7 @@ img{
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-@media screen and (max-width: 60em) {
+@media screen and (min-width: 48em) {
     header, footer{
         background-color: var(--black);
         color: var(--white);
@@ -269,7 +269,7 @@ img{
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-@media screen and (max-width: 70em) {
+@media screen and (min-width: 62em) {
     header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
